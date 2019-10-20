@@ -90,7 +90,7 @@ https://medium.com/codingthesmartway-com-blog/building-a-svelte-3-todo-app-from-
 # Build an e-commerce shopping cart with Next.js
 
 NextJs is the most popular framework for creating React applications that support server-side rendering out of the box. This project will show you how to build an e-commerce shopping cart looking like this:  
-![next](../master/images/next.png)
+![next](../master/images/next.PNG)
 
 ## What you will learn
 
