@@ -10,7 +10,7 @@ To helping you become Frontend Masters in 2020 I have collected 9 different proj
 # Build a movie search app using React (with hooks)
 
 The first thing you could start with is building a movie search app using React. The project will look like this:
-![react][https://github.com/Bobslegend61/9-Projects-you-can-do-to-become-a-Frontend-Master-in-2020/blob/master/images/react.jpg]
+[react][https://github.com/Bobslegend61/9-Projects-you-can-do-to-become-a-Frontend-Master-in-2020/blob/master/images/react.jpg]
 
 ## What you will learn
 
