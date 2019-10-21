@@ -1,0 +1,41 @@
+.Home {
+  padding: 20px 5px;
+  width: 90%;
+  margin: auto;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 7rem;
+}
+
+.nav__brandName {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav__search {
+  position: relative;
+}
+
+.nav__input {
+  width: 100%;
+  height: 32px;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.nav__submit {
+  position: absolute;
+  right: 35px;
+  top: 5px;
+}
+
+.movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 258px));
+  gap: 10px;
+}
