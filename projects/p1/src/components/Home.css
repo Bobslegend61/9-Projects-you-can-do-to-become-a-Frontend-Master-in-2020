@@ -37,5 +37,5 @@
 .movies {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 258px));
-  gap: 10px;
+  gap: 5px;
 }
