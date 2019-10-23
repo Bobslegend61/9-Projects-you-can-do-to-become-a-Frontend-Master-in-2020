@@ -27,7 +27,7 @@ function Home({ movies, searchMovies }) {
           </button>
         </div>
       </nav>
-      <div className="container movies">
+      <div className="movies">
         {movies.map((movie, i) => (
           <Movie key={i} movie={movie} />
         ))}

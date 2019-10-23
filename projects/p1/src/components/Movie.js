@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function Movie({ movie: { Title, Poster, Year } }) {
   return (
-    <div style={{ textAlign: 'center', height: '350px' }}>
+    <div className="movie">
       <p>{Title.split(':')[0]}</p>
       <img
         style={{

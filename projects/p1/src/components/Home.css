@@ -1,41 +1,52 @@
-.Home {
-  padding: 20px 5px;
-  width: 90%;
-  margin: auto;
-}
-
 .nav {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  margin-bottom: 7rem;
-}
-
-.nav__brandName {
-  font-size: 2rem;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.nav__search {
-  position: relative;
-}
-
-.nav__input {
-  width: 100%;
-  height: 32px;
-  outline: none;
-  border-radius: 5px;
+  grid-template-columns: repeat(3, 1fr);
   padding: 10px;
 }
 
+.nav__brandName {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.nav__search {
+  grid-column-start: 3;
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  border-left: 0;
+  height: 100%;
+}
+
+.nav__input {
+  width: 90%;
+  height: 32px;
+  border: 1px solid gray;
+  border-radius: 5px 0 0 5px;
+  padding: 5px;
+  border-right: 0;
+}
+
 .nav__submit {
-  position: absolute;
-  right: 35px;
-  top: 5px;
+  margin: 0;
+  width: 10%;
+  height: 100%;
+  border: 1px solid gray;
+  background: #fff;
+  border-left: 0;
+  border-radius: 0 5px 5px 0;
 }
 
 .movies {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 258px));
-  gap: 5px;
+  width: 60%;
+  margin: 2rem auto;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+  gap: 80px;
+}
+
+.movie {
+  text-align: center;
+  width: 200px;
+  height: 100%;
 }
